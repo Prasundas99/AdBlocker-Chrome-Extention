@@ -1,0 +1,15 @@
+{
+    "name": "AdBlocker",
+    "version": "1.0.0",
+    "description" : "A  Basic adBlocker to make your life easier from ads.",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons" : {
+        "16" : "Icon16.png",
+        "48" : "Icon48.png",
+        "128": "Icon128.png"
+    },
+    "manifest_version": 2
+}
